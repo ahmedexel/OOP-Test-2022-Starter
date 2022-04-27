@@ -5,8 +5,11 @@ public class nematode
     private String name;
     private float length;
     private boolean limbs;
-    private String gender;
+    private char gender;
     private boolean eyes;
+
+
+
 
     public nematode(TableRow tr)
     {
@@ -14,7 +17,7 @@ public class nematode
             tr.getString("name"), 
             tr.getFloat("length"),
             tr.getInt("limbs") == 1, 
-            tr.getString("gender"),
+            tr.getchar("gender"),
             tr.getInt("eyes") == 1
         );
     }
