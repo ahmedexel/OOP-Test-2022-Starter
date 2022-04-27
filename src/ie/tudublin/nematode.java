@@ -8,6 +8,16 @@ public class nematode
     private char gender;
     private boolean eyes;
 
+
+
+    public nematode(String name, float length, boolean limbs, char gender, boolean eyes) {
+        this.name = name;
+        this.length = length;
+        this.limbs = limbs;
+        this.gender = gender;
+        this.eyes = eyes;
+    }
+
     
     public String getName() {
         return name;
