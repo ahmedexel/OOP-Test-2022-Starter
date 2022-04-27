@@ -9,6 +9,9 @@ import processing.data.TableRow;
 public class NematodeVisualiser extends PApplet
 {
 
+	ArrayList<Nematode> nematodes = new ArrayList<Nematode>();
+	
+	
 	public void keyPressed()
 	{		
 		if (keyCode == LEFT)
