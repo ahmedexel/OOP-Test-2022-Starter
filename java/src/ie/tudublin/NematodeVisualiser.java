@@ -44,6 +44,7 @@ public class NematodeVisualiser extends PApplet
 
 
 	public void draw()
-	{	
+	{
+		g.line(40,40,200, 40);
 	}
 }
